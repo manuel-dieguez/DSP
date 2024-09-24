@@ -27,7 +27,7 @@ q = 2*Vref/(num_pasos)      ## No le resto 1 a num_pasos por como hago el redond
 
 ## Ruido
 kn = 1
-Pn = kn * q**2/2
+Pn = kn * q**2/12
 
 ## Nuestro generador de senal va a generar nuestra senal discreta muestreada a 
 ## fs pero sin cuantizar su ampltiud
