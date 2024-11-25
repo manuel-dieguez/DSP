@@ -96,6 +96,7 @@ plt.show()
 
 plt.figure(5)
 plt.hist(e, density=True, alpha=0.7, color='blue', edgecolor='black')
+plt.plot( np.array([-q/2, -q/2, q/2, q/2]), np.array([0, 1/q, 1/q, 0]), '--r' )
 plt.title('Distribución de la Señal')
 plt.xlabel('Valor')
 plt.ylabel('Frecuencia')

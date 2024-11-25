@@ -59,12 +59,12 @@ bfreqs = (freqs>=0)
 # plt.grid()
 # plt.title("Una de las senoidales")
 
-plt.figure(1)
-plt.hist(n)
-plt.ylabel("Frecuencia")
-plt.xlabel("Amplitud")
-plt.grid()
-plt.title("Distribucion del ruido")
+# plt.figure(1)
+# plt.hist(n)
+# plt.ylabel("Frecuencia")
+# plt.xlabel("Amplitud")
+# plt.grid()
+# plt.title("Distribucion del ruido")
 
 # Ploteamos una de las fft
 plt.figure(2)
